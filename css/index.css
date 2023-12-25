@@ -1,0 +1,42 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 15px;
+}
+
+#QRcode {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+#QRcode .qr-box {
+  background-color: hsl(0, 0%, 100%);
+  width: 85.0667%;
+  max-width: 18.125rem;
+  padding: 15px;
+  border-radius: 1rem;
+}
+#QRcode .qr-box img[alt=QR] {
+  border-radius: 0.5rem;
+  max-width: 100%;
+}
+#QRcode .qr-box .qrinfo {
+  line-height: 1.5;
+  text-align: center;
+}
+#QRcode .qr-box .qrinfo h1 {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+#QRcode .qr-box .qrinfo p {
+  color: hsl(220, 15%, 55%);
+}
+#QRcode .qr-box .qrinfo h1,
+#QRcode .qr-box .qrinfo p {
+  margin: 0.9375em 0;
+}/*# sourceMappingURL=index.css.map */
